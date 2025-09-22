@@ -47,7 +47,7 @@ export default function SignUpForm() {
           "registeredUsers",
           JSON.stringify([{ fullName, email, password }])
         );
-    router.push("/dashboard");
+    router.push("/");
   };
 
   return (

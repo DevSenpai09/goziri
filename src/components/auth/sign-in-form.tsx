@@ -25,7 +25,7 @@ export default function SignInForm() {
 
     if (registeredUsers && userData && userData?.password === password) {
       localStorage.setItem("signedInUser", JSON.stringify(userData));
-      router.push("/dashboard");
+      router.push("/");
       return;
     }
 

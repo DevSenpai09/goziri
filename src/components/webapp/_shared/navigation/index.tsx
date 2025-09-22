@@ -39,7 +39,7 @@ export default function Navigation() {
           <p className="text-sm text-[#969696]">MAIN</p>
 
           <div className="grid gap-3">
-            <Item url="/dashboard" matcher={["/dashboard"]}>
+            <Item url="/" matcher={["/"]}>
               <PiSpeedometer /> Dashboard
             </Item>
             <Item url="/services" matcher={["/services"]}>
