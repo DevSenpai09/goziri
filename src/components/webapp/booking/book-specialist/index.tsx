@@ -57,11 +57,12 @@ export default function BookSpecialist() {
         <div className="max-w-xl mx-auto w-full grid gap-10">
           {/* Specialist Info */}
           <div className="grid gap-3">
-            <span className="grid relative rounded-full overflow-hidden w-max mx-auto">
+            <span className="grid relative rounded-full overflow-hidden w-32 h-32 mx-auto">
               <Image
                 src={specialist?.image || ""}
-                width={112}
-                height={112}
+                fill
+                objectFit="cover"
+                objectPosition="top center"
                 alt="Specialist Image"
               />
             </span>
@@ -117,7 +118,7 @@ export default function BookSpecialist() {
                   className={cn(
                     "border p-2.5 rounded-lg text-[#3F3F3F] cursor-pointer transition-all",
                     selectedTime === timeSlot
-                      ? "border-[#009951]"
+                      ? "border-primar"
                       : "border-[#D1D1D1]"
                   )}
                 >
@@ -147,7 +148,7 @@ export default function BookSpecialist() {
 
           {/* Success Modal */}
           <Dialog open={isSuccessful}>
-            <DialogContent showCloseButton={false} className="w-96">
+            <DialogContent showCloseButton={false} className="w-96 bg-white">
               <div className="text-[#009951] grid justify-items-center">
                 <PiCheckCircleFill className="text-6xl" />
                 <DialogTitle className="text-lg font-">Successful!</DialogTitle>

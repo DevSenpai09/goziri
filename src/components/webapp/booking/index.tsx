@@ -34,11 +34,12 @@ export default function Booking() {
             className="border border-[#DDDDDD] rounded-md p-3 grid gap-3"
           >
             <div className="grid grid-cols-[auto_1fr] items-center gap-3">
-              <span className="grid relative rounded-full overflow-hidden">
+              <span className="grid relative rounded-full w-16 h-16 overflow-hidden">
                 <Image
                   src={specialist?.image}
-                  width={60}
-                  height={60}
+                  fill
+                  objectFit="cover"
+                  objectPosition="top center"
                   alt="Specialist Image"
                 />
               </span>

@@ -7,7 +7,7 @@ export const SPECIALISTS = [
     experience: "12 Years",
     location: "Akure, Nigeria",
     price: "₦19,000",
-    image: "https://randomuser.me/api/portraits/men/18.jpg",
+    image: "/specialists/1.jpg",
     timeSlots: ["08:45 AM", "10:15 AM", "12:45 PM", "03:15 PM"],
   },
   {
@@ -18,7 +18,7 @@ export const SPECIALISTS = [
     experience: "15 Years",
     location: "Lagos, Nigeria",
     price: "₦25,000",
-    image: "https://randomuser.me/api/portraits/women/21.jpg",
+    image: "/specialists/2.jpg",
     timeSlots: ["09:00 AM", "11:00 AM", "01:30 PM", "04:00 PM"],
   },
   {
@@ -29,7 +29,7 @@ export const SPECIALISTS = [
     experience: "10 Years",
     location: "Abuja, Nigeria",
     price: "₦18,500",
-    image: "https://randomuser.me/api/portraits/men/12.jpg",
+    image: "/specialists/3.jpg",
     timeSlots: ["08:30 AM", "10:45 AM", "01:00 PM", "03:45 PM"],
   },
   {
@@ -40,7 +40,7 @@ export const SPECIALISTS = [
     experience: "14 Years",
     location: "Enugu, Nigeria",
     price: "₦28,000",
-    image: "https://randomuser.me/api/portraits/women/8.jpg",
+    image: "/specialists/4.jpg",
     timeSlots: ["09:15 AM", "11:15 AM", "02:00 PM", "04:15 PM"],
   },
   {
@@ -51,7 +51,7 @@ export const SPECIALISTS = [
     experience: "11 Years",
     location: "Port Harcourt, Nigeria",
     price: "₦16,000",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "/specialists/5.jpg",
     timeSlots: ["08:45 AM", "10:30 AM", "01:15 PM", "03:30 PM"],
   },
   {
@@ -62,7 +62,7 @@ export const SPECIALISTS = [
     experience: "17 Years",
     location: "Kano, Nigeria",
     price: "₦32,000",
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "/specialists/6.jpg",
     timeSlots: ["09:00 AM", "11:30 AM", "01:45 PM", "04:00 PM"],
   },
   {
@@ -73,7 +73,7 @@ export const SPECIALISTS = [
     experience: "13 Years",
     location: "Ibadan, Nigeria",
     price: "₦27,500",
-    image: "https://randomuser.me/api/portraits/men/9.jpg",
+    image: "/specialists/7.jpg",
     timeSlots: ["08:30 AM", "10:45 AM", "12:45 PM", "03:00 PM"],
   },
   {
@@ -84,7 +84,7 @@ export const SPECIALISTS = [
     experience: "12 Years",
     location: "Awka, Nigeria",
     price: "₦22,000",
-    image: "https://randomuser.me/api/portraits/women/7.jpg",
+    image: "/specialists/8.jpg",
     timeSlots: ["09:00 AM", "11:15 AM", "01:30 PM", "04:15 PM"],
   },
   {
@@ -95,7 +95,7 @@ export const SPECIALISTS = [
     experience: "15 Years",
     location: "Benin City, Nigeria",
     price: "₦24,500",
-    image: "https://randomuser.me/api/portraits/men/10.jpg",
+    image: "/specialists/9.jpg",
     timeSlots: ["08:45 AM", "10:15 AM", "12:45 PM", "03:15 PM"],
   },
   {
@@ -106,7 +106,7 @@ export const SPECIALISTS = [
     experience: "9 Years",
     location: "Jos, Nigeria",
     price: "₦20,000",
-    image: "https://randomuser.me/api/portraits/women/12.jpg",
+    image: "/specialists/10.jpg",
     timeSlots: ["09:00 AM", "11:00 AM", "01:15 PM", "03:30 PM"],
   },
   {
@@ -117,7 +117,7 @@ export const SPECIALISTS = [
     experience: "16 Years",
     location: "Sokoto, Nigeria",
     price: "₦26,000",
-    image: "https://randomuser.me/api/portraits/men/15.jpg",
+    image: "/specialists/11.jpg",
     timeSlots: ["08:30 AM", "10:45 AM", "01:00 PM", "04:00 PM"],
   },
   {
@@ -128,7 +128,7 @@ export const SPECIALISTS = [
     experience: "14 Years",
     location: "Benin City, Nigeria",
     price: "₦21,000",
-    image: "https://randomuser.me/api/portraits/women/15.jpg",
+    image: "/specialists/12.jpg",
     timeSlots: ["09:15 AM", "11:15 AM", "01:45 PM", "04:15 PM"],
   },
   {
@@ -139,7 +139,7 @@ export const SPECIALISTS = [
     experience: "8 Years",
     location: "Abeokuta, Nigeria",
     price: "₦18,000",
-    image: "https://randomuser.me/api/portraits/men/16.jpg",
+    image: "/specialists/13.jpg",
     timeSlots: ["08:30 AM", "10:00 AM", "12:30 PM", "03:00 PM"],
   },
   {
@@ -150,7 +150,7 @@ export const SPECIALISTS = [
     experience: "12 Years",
     location: "Lagos, Nigeria",
     price: "₦23,000",
-    image: "https://randomuser.me/api/portraits/women/18.jpg",
+    image: "/specialists/14.jpg",
     timeSlots: ["09:00 AM", "11:00 AM", "01:30 PM", "04:00 PM"],
   },
   {
@@ -161,7 +161,7 @@ export const SPECIALISTS = [
     experience: "18 Years",
     location: "Enugu, Nigeria",
     price: "₦30,000",
-    image: "https://randomuser.me/api/portraits/men/19.jpg",
+    image: "/specialists/15.jpg",
     timeSlots: ["08:45 AM", "10:15 AM", "12:45 PM", "03:15 PM"],
   },
   {
@@ -172,7 +172,7 @@ export const SPECIALISTS = [
     experience: "11 Years",
     location: "Katsina, Nigeria",
     price: "₦19,500",
-    image: "https://randomuser.me/api/portraits/women/19.jpg",
+    image: "/specialists/16.jpg",
     timeSlots: ["09:00 AM", "11:30 AM", "02:00 PM", "04:15 PM"],
   },
   {
@@ -183,7 +183,7 @@ export const SPECIALISTS = [
     experience: "13 Years",
     location: "Osogbo, Nigeria",
     price: "₦22,500",
-    image: "https://randomuser.me/api/portraits/men/20.jpg",
+    image: "/specialists/17.jpg",
     timeSlots: ["08:30 AM", "10:45 AM", "01:00 PM", "03:15 PM"],
   },
   {
@@ -194,7 +194,7 @@ export const SPECIALISTS = [
     experience: "15 Years",
     location: "Uyo, Nigeria",
     price: "₦24,000",
-    image: "https://randomuser.me/api/portraits/women/20.jpg",
+    image: "/specialists/18.jpg",
     timeSlots: ["09:15 AM", "11:15 AM", "01:30 PM", "04:00 PM"],
   },
   {
@@ -205,7 +205,7 @@ export const SPECIALISTS = [
     experience: "10 Years",
     location: "Lagos, Nigeria",
     price: "₦35,000",
-    image: "https://randomuser.me/api/portraits/men/21.jpg",
+    image: "/specialists/19.jpg",
     timeSlots: ["08:45 AM", "10:15 AM", "12:45 PM", "03:15 PM"],
   },
   {
@@ -216,7 +216,7 @@ export const SPECIALISTS = [
     experience: "9 Years",
     location: "Ilorin, Nigeria",
     price: "₦17,000",
-    image: "https://randomuser.me/api/portraits/women/22.jpg",
+    image: "/specialists/20.jpg",
     timeSlots: ["09:00 AM", "11:00 AM", "01:15 PM", "03:30 PM"],
   },
 ];

@@ -1,7 +1,6 @@
 "use client";
 
 import Logo from "@/components/ui/logo";
-import Image from "next/image";
 import React from "react";
 import Item from "./item";
 import {
